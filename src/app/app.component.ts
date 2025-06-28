@@ -46,7 +46,7 @@ export class AppComponent {
     console.log("HOBBIES",this.persona.hobbies[0]);
     this.persona.hobbies[0] = "new hobby";
     console.log("HOBBIES",this.persona.hobbies[0]);
-    /*console.log("Family",this.persona.family[0]);*/
+    console.log("Family",this.persona.family[0]);
     return this.name;
   }
 }
