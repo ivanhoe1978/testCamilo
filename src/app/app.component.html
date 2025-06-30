@@ -1,4 +1,26 @@
 
 <div>Hola Vero!</div>
 <input type="text" [(ngModel)]="name" />
+
+<div id="principal">
+    <div class="title">
+        TAREA 1
+    </div>
+    <div id="card-content" class="card">
+        <div class="titleint">
+            Nombre: {{ persona.name }}<br>
+            Edad: {{ persona.age}}<br>
+            Email: {{persona.email}}<br>
+            Dirección: {{persona.address.street}} , {{persona.address.city}} , {{persona.address.country}}
+        </div>
+        <div class="titleyellow">
+            Hobbies
+        </div>
+        <div id="hoobies">
+            <div class="hobname">{{persona.hobbies[0]}}</div>
+            <div class="hobname">{{persona.hobbies[1]}}</div>
+            <div class="hobname">{{persona.hobbies[2]}}</div>
+        </div>        
+    </div>
+</div>
  
